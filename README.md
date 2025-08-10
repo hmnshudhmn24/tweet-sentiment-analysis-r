@@ -5,7 +5,7 @@ This project performs **sentiment analysis** on tweets related to a specific sea
 It uses the **Twitter API** to fetch tweets, cleans and tokenizes them, and applies the **NRC Emotion Lexicon** to classify sentiment into emotions (e.g., joy, anger, trust) and polarities (positive, negative).  
 It also generates **bar charts** and **wordclouds** for visualization.
 
----
+
 
 ## 🚀 Features
 - Fetches tweets using `rtweet`
@@ -16,7 +16,7 @@ It also generates **bar charts** and **wordclouds** for visualization.
   - Sentiment bar chart
   - Wordcloud
 
----
+
 
 ## 📂 Dataset
 - Source: Twitter API (via `rtweet`)
@@ -31,7 +31,7 @@ It also generates **bar charts** and **wordclouds** for visualization.
   install.packages(c("rtweet", "tidyverse", "tidytext", "syuzhet", "wordcloud", "RColorBrewer", "ggplot2"))
   ```
 
----
+
 
 ## 🔑 Setup
 1. Create a **Twitter Developer Account** and get API keys.
@@ -47,21 +47,21 @@ It also generates **bar charts** and **wordclouds** for visualization.
    ```
 3. Save this script as `tweet_sentiment_analysis.R`.
 
----
+
 
 ## ▶️ How to Run
 ```r
 source("tweet_sentiment_analysis.R")
 ```
 
----
+
 
 ## 📊 Output
 - **Sentiment Bar Chart** (positive, negative, joy, anger, etc.)
 - **Wordcloud** of frequent terms
 - Sentiment scores printed in console
 
----
+
 
 ## 📁 Project Structure
 ```bash
@@ -72,13 +72,8 @@ tweet-sentiment-analysis/
 └── (generated plots)            # Sentiment bar chart & wordcloud
 ```
 
----
+
 
 ## 📌 Example
 - **Query:** `"data science"`
 - **Tweets fetched:** 200
-
----
-
-## 📜 License
-MIT License
